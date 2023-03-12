@@ -1,0 +1,87 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  background: rgb(235, 221, 221);
+   width: 690px;
+   height: 700px;
+   border-radius: 14px;
+}
+.main button{
+  width: 200px;
+  height: 30px;
+  margin-left: 20px;
+}
+.main h2{
+  margin-left: 220px;
+  text-decoration: underline;
+}
+.card{
+  background-color: rgba(133,138,126, 0.646);
+  flex-basis: 18.30%;
+  height: 180px;
+  box-shadow:  0 4px 8px 0 rgba(51, 25, 25, 0.904);
+  transition: 0.3s;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-left: 27.5px;
+  margin-top: 5px;
+  
+}
+.card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card img{
+  width: 75px;
+  height: 75px;
+  border-radius: 15px;
+  margin-left: 30px;
+  margin-top: -50px; 
+}
+.card p {
+  background-color: white;
+  width: 40px; 
+  text-align: center; 
+  border-radius: 5px 5px 0 0;
+  margin-left: 55px;
+}
+.getitems{
+  margin-left: 752px;
+  margin-top: -640px;
+  width: 350px;
+  height: 270px;
+  border-radius: 12px;
+  background-color: rgb(178, 178, 184);
+} 
+ .getitems input{
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 2px;
+  margin-left: 20px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  width: 180px;
+  height: 20px;
+  border-bottom-color: black;
+  margin-bottom: 10px;
+
+}
+.getitems label{
+  margin-left: 10px;
+}
+.getitems button{
+  margin-left: 10px;
+  background-color: black;
+  color:white;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+#display img{
+  margin-top: -50px;
+  margin-left: 85px;
+  border-radius: 14px;
+  box-shadow: 4px 4px 4px 4px black;
+}
