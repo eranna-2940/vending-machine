@@ -24,31 +24,32 @@
   box-sizing: border-box;
   border-radius: 10px;
   margin-left: 27.5px;
-  margin-top: 5px;
+  margin-top: px;
   
 }
 .card:hover{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .card img{
-  width: 75px;
+  width: 70px;
   height: 75px;
   border-radius: 15px;
-  margin-left: 30px;
+  margin-left: 32px;
   margin-top: -50px; 
 }
 .card p {
   background-color: white;
   width: 40px; 
   text-align: center; 
-  border-radius: 5px 5px 0 0;
-  margin-left: 55px;
+  border-radius: 5px 15px 0 0;
+  margin-left: 48px;
 }
+
 .getitems{
   margin-left: 752px;
-  margin-top: -640px;
+  margin-top: -690px;
   width: 350px;
-  height: 270px;
+  height: auto;
   border-radius: 12px;
   background-color: rgb(178, 178, 184);
 } 
@@ -60,8 +61,8 @@
   border: none;
   outline: none;
   border-radius: 10px;
-  width: 180px;
-  height: 20px;
+  width: 240px;
+  height: 25px;
   border-bottom-color: black;
   margin-bottom: 10px;
 
@@ -71,17 +72,37 @@
 }
 .getitems button{
   margin-left: 10px;
-  background-color: black;
+  background-color: rgb(63, 32, 32);
   color:white;
   width: 100px;
-  height: 30px;
+  height: 32px;
   border-radius: 20px;
-  margin-top: 10px;
+  margin-top: 15px;
+  margin-bottom: 25px;
 }
 
 #display img{
-  margin-top: -50px;
-  margin-left: 85px;
   border-radius: 14px;
   box-shadow: 4px 4px 4px 4px black;
+}
+
+p{
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: -18px;
+  margin-top: 20px;
+ font-family: 'Times New Roman', Times, serif;
+}
+span{
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: -18px;
+  
+   font-family: 'Times New Roman', Times, serif;
+}
+
+#des{
+  margin-left: 20px;
+  color:red;
+  margin-bottom: 12px;
 }
